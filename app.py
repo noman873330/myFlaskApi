@@ -65,4 +65,4 @@ def scrape_google_jobs():
         return jsonify({"error": "Failed to fetch page"})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
